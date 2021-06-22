@@ -1,0 +1,103 @@
+	body{
+    margin: 0.5%;
+    padding: 0.5%;
+}
+h1{
+    font-size: 30px;
+    padding-top:20px;
+    margin: 0px;
+}
+header{
+    text-align: center;
+    height: 190px;
+    background-image: url("../imagen/flywheel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;/*Escala la imagen al mayor tamaño posible sin estirarla. */
+}
+nav a{
+    background: rgba(218,234,213,0.60);
+    display: inline-block;
+    color: #000000; /* Black */
+    padding: 10px;  
+    width: 160px;
+    margin: 1%;  
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.active, a:hover{
+    background: #ffffff;
+}
+.left{background: olive;
+    width: 200px;
+    height: 500px;
+    float: left;
+}
+img{
+    width: 150px;
+    height: 90px;
+    display: block;
+    border: 2px solid black;
+    margin: 20px 0px 20px 20px;
+
+}
+h2{
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.right{
+padding-left: 210px;
+}
+
+/* Code for table */
+table{
+         border-collapse: collapse;
+   		width: 800px;
+        font-weight: bold;
+   		font-family: "Courier New", Courier, monospace;	
+        font-size: 80%;	
+}
+th{
+    text-align: center;
+    background-image: url('https://st.depositphotos.com/1625616/4929/i/600/depositphotos_49295967-stock-photo-green-background.jpg');
+   	padding: 1%;
+    color: #FFFFFF; /* White */
+    border: 2px solid #ffffff; /* White */
+    background-repeat: no-repeat;
+   
+
+}
+
+
+    table, td, th {
+        margin-left: 3%;
+        padding: 1%;
+    } 
+    
+tr{
+	
+    text-align: center;
+    opacity: 0.8;
+    
+}
+
+
+tr td:hover, tr th:hover {
+		opacity: 0.5;
+		font-size: 150%;
+
+	}
+
+    tr th:first-child, tr td:first-child {
+        text-align: left;
+    }
+
+    td {
+        background: #E0FFFF; /* LightCyan */
+        color: #808080; /* Gray */
+        border: 2px solid #FFFFFF;
+        text-align: center;
+    }
+	
